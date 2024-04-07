@@ -29,7 +29,7 @@
         /// <summary>
         /// Рассчет Индекса массы тела.
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Значение ИМТ человека.</returns>
         public double CalculateBMI()
         {
             return Weight / (Math.Pow(Height, 2));
